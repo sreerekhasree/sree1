@@ -1,13 +1,12 @@
-class Main
+import java.util.Scanner;
+public class Evenodd
 { 
-    public static boolean Even(int x) 
-    { 
-    return (x % 2 == 0); 
-    } 
     public static void main(String[] args) 
     { 
-    int x =5; 
-        if(Even(x) == true) 
+    int x; 
+     Scanner v = new Scanner(System.in);   
+        x = v.nextInt();
+        if (x % 2 == 0)
             System.out.print("Even"); 
         else
             System.out.print("Odd"); 

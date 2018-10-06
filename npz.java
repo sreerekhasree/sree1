@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class npz {
   public static void main(String[] args) {
     int num;
     Scanner sc = new Scanner(System.in);
@@ -9,7 +9,7 @@ class Main {
     System.out.println(num + "is POSITIVE NUMBER.");
     else if(num<0)
     System.out.println(num + "is NEGATIVE NUMBER");
-    else
+    else if(num==0)
     System.out.println("IT's ZERO.");
   }
 }
